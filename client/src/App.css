@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+}
+
+.form {
+  margin: 0 auto;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form-group {
+  display: flex;
+  gap: 1rem;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+.title {
+  text-align: center;
+}
+
+.pets {
+  margin: 0 auto;
+}
+
+.pet {
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  padding: 3rem;
+  max-width: 300px;
+  background-color: lightblue;
+}
+
+.pet-name {
+  text-align: center;
+}
+
+.pet-skills {
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.sub-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.single-pet {
+  margin: 0 auto;
+  padding: 3rem;
+  max-width: 600px;
+  background-color: lightblue;
+}
